@@ -1,0 +1,383 @@
+body {
+	font-family: Helvetica, Arial;
+	color: #24282b;
+	padding: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+header {
+	float: left;
+	background-color: #00778d;
+	width: 100%;
+}
+
+header p {
+	float: right;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #FFF;
+	background: #0B486B;
+	padding: 20px 5px;
+}
+
+.contratar:hover {
+	color: #FFF;
+	background: #0B486B;
+}
+
+.button:hover {
+	color: #FFF;
+	background: #0B486B;
+}
+
+#logo {
+	padding: 5px;
+	float: left;
+	width: 50%;
+	height: 80%;
+}
+
+nav {
+	float: right;
+	padding: 20px;
+}
+
+#menu {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	padding: 0px;
+	background: #00778d url(../img/menu.png) center;
+	background-size: 30px;
+	background-repeat: no-repeat;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+footer {
+	background-color: #00778d;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#image1:hover {
+		opacity: 0.5;
+}
+#image2:hover {
+		opacity: 0.5;
+}
+
+/* MEDIA QUERY Smartphone*/
+@media only screen and (max-width: 480px) {
+	#menu {
+		display: inline-block;
+}
+
+	nav ul {
+		display: none;
+		position: absolute;
+		right: 20px;
+		top: 60px;
+		padding: 20px;
+		background: #fff;
+		width: 20%;
+	}
+
+	nav li {
+		text-align: left;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul {
+		display: block;
+	}
+
+	nav li a {
+		color: #3B8686;
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	#gerais2 img {
+		margin-left: 15%;
+	}
+
+	.depoimentos {
+		box-shadow: 3px 3px 3px #888888;
+		border-radius: 5px;
+		width: 95%;
+		padding-right: 10px;
+	}
+
+	#servicos{
+		text-align: justify;
+	}
+
+	#image1, #image2 {
+		margin-bottom: 20px;
+		border: 1px solid #888888;
+		border-radius: 5px;
+	}
+
+	.contratar{
+		background-color: #00778d;
+		border: none;
+		color: white;
+		padding: 10px 15px;
+		margin-bottom: 10px;
+	}
+	.planos{
+		text-align: center;
+		clear: both;
+	}
+
+	nav#v-footer {
+		display: none;
+	}
+
+	#copyright p {
+		text-align: center;
+	}
+
+	#slogan {
+		width: 50%;
+		float: right;
+		margin-right: 10px;
+		font-weight: bold;
+		letter-spacing: 4px;
+	}
+
+	#informacoes {
+		height: 700px;
+		clear: both;
+	}
+
+		#informacoes {
+		clear: both;
+		width: 100%;
+	}
+
+	input[type=text], textarea {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+	.button {
+		background-color: #00778d;
+		border: none;
+		color: white;
+		padding: 10px 15px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px; 
+		float: left;
+	}
+
+	.detalhes {
+		text-align: justify;
+		float: left;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.map {
+		float: left;
+	}
+}
+
+/*MEDIA QUERY iPad*/
+@media only screen and (min-width: 481px) {
+
+	#menu {
+		display: hidden;
+	}
+
+	body {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	header {
+		height: 200px;
+		float: left;
+	}
+
+	section {
+		height: 250px;
+		clear: both;
+	}
+
+	#prom1, #prom2 {
+		width: 48%;
+		float: left;
+		margin-left: 10px;
+		border: 1px solid #ccc;
+	}
+
+	#gerais1, #gerais2, #gerais3 {
+		float: left;
+		width: 32%;
+		margin-left: 5px;
+		border: 1px solid #ccc;
+		height: 320px;
+	}
+
+	#gerais2 img {
+		margin-left: 10%;
+	}
+
+	.depoimentos {
+		box-shadow: 3px 3px 3px #888888;
+		border-radius: 5px;
+		width: 47.5%;
+		float: left;
+		margin: 0 0 15px 15px;
+	}
+
+	#plano1 {
+		width: 50%;
+		float: left;
+		border: 1px solid #ccc;
+		margin-bottom: 15px;
+	}
+
+	#imgplano1{
+		width: 45%;
+		float: left;
+		margin-left: 5px;
+		border: 1px solid #ccc;
+	}
+
+	#plano2 {
+		width: 50%;
+		float: left;
+		border: 1px solid #ccc;
+	}
+
+	#imgplano2{
+		width: 45%;
+		float: left;
+		margin-left: 5px;
+		border: 1px solid #ccc;
+		margin-bottom: 10px;
+	}
+
+	.planos{
+		text-align: center;
+		clear: both;
+	}
+
+	footer {
+		height: 200px;
+		clear: both;
+	}
+
+	#slogan {
+		margin-right: 10px;
+		font-weight: bold;
+		letter-spacing: 7px;
+	}
+
+	#logo {
+		padding: 5px;
+		float: left;
+		width: 30%;
+		height: 70%;
+		margin: 0 auto;
+	}
+
+	#image1, #image2 {
+		width: 45%;
+		float: left; 
+		margin-left: 15px;
+		margin-bottom: 10px;
+		border: 1px solid #888888;
+		border-radius: 5px;
+	}
+
+	.contratar{
+		background-color: #00778d;
+		float: right;
+		border: none;
+		color: white;
+		padding: 10px 15px;
+		clear: both;
+		margin-bottom: 10px;
+		margin-right: 25px;
+	}
+
+	#informacoes {
+		clear: both;
+		width: 100%;
+	}
+
+	input[type=text], textarea {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+	}
+
+	.button {
+		background-color: #00778d;
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px; 
+		float: left;
+	}
+
+	.detalhes, .map {
+		width: 49.1%;
+		float: left;
+		border: 1px solid #ccc;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.map {
+		margin-left: 5px;
+	}
+
+}
+
+@media only screen and (min-width: 960px) {
+	body {
+		width: 960px;
+	}
+}
+
